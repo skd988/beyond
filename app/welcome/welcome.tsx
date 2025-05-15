@@ -1,5 +1,6 @@
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
+import {Link} from "react-router"
 
 export function Welcome() {
   return (
@@ -39,6 +40,7 @@ export function Welcome() {
                 </li>
               ))}
             </ul>
+            <Link to="about">click me</Link>
           </nav>
         </div>
       </div>
